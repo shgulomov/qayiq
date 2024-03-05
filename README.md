@@ -1,11 +1,17 @@
 
-`qayiq` is a project I worked on to learn more about Linux containers and the Linux kernel, based on other guides on the internet.
-Linux containers are made up by a set of Linux kernel features:
+About `qayiq`
 
-- `namespaces`: are used to group kernel objects into different sets that can be accessed by specific process trees. There are different types of `namespaces`, for example,the `PID` namespace is used to isolate the process tree, while the `network` namespace is used to isolate the network stack.
-- `seccomp`: is used to limit the system calls that a process can make (handled via syscalls)
-- `capabilities`: are used to set limits on what uid 0 (root) can do (handled via syscalls)
-- `cgroups`: are used to limit the resources (e.g. memory, disk I/O, CPU-tme) that a process can use (handled via cgroupfs)
+`qayiq` is a hands-on project developed to deepen understanding of Linux containers and the Linux kernel, leveraging various online guides. It explores core Linux kernel features essential for containerization:
+
+`Namespaces`: Essential for isolating kernel objects into distinct sets accessible only by specific process trees. For instance, PID namespaces isolate processes, and network namespaces segregate network stacks.
+
+`Seccomp`: Limits the system calls a process can execute, enhancing security by controlling syscall access.
+
+`Capabilities`: Defines privileges for uid 0 (root), restricting the actions root can perform to improve security.
+
+`Cgroups`: Manages resource allocation (memory, disk I/O, CPU time) among processes, ensuring efficient resource use.
+
+These components collectively form the backbone of Linux containers, showcasing the isolation, resource control, and security mechanisms at play.
 
 ## Usage
 
