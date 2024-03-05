@@ -31,7 +31,7 @@ $ sudo ./bin/qayiq -u 0 -m / -c /bin/sh -a . [-v]
 22:08:41 INFO  ./src/cgroups.c:73: setting cgroup.procs to 1458...
 22:08:41 INFO  ./src/qayiq.c:139: configuring user namespace...
 22:08:41 INFO  ./src/qayiq.c:147: waiting for container to exit...
-22:08:41 INFO  ./src/container.c:43: ### qayiqNTAINER STARTING - type 'exit' to quit ###
+22:08:41 INFO  ./src/container.c:43: ### QAYIQCONTAINER STARTING - type 'exit' to quit ###
 
 # ls
 bin         home                lib32       media       root        sys         vmlinuz
@@ -43,7 +43,7 @@ i am a container
 # exit
 
 22:08:55 INFO  ./src/qayiq.c:153: freeing resources...
-22:08:55 INFO  ./src/qayiq.c:168: so long and thanks for all the fish
+22:08:55 INFO  ./src/qayiq.c:168: Thank you for using qayiq
 ```
 
 ## Setup
